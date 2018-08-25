@@ -1,0 +1,145 @@
+.emailus{
+  padding-left: 35px;
+  padding-top: 15px;
+  font-style: bold;
+  font-size: 25px;
+  font-family: Tahoma;
+}
+
+.info{
+  background-color: skyblue;
+  width : 10cm;
+  height: 18cm;
+}
+
+.myForm{
+background-color: whitesmoke;
+width: 20cm;
+height: 18cm;
+position: absolute;
+
+}
+.info, .myForm{
+  display: inline-block;
+
+} 
+
+.heading{
+  padding-top: 1cm;
+  padding-left: 3cm;
+   
+}
+
+.container{
+  padding-left: 3cm;
+  
+}
+
+.image{
+  width: 80%;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.underimg{
+  text-align: center;
+  margin:0 0 1rem 0;
+  font-style: bold;
+  font-family: Franklin Gothic Medium;
+  font-size: 20px
+}
+
+
+.doif{
+  font-family: Palatino Linotype		;
+  font-size: 20px;
+  padding-top: 0;
+
+
+}
+
+h4{
+  padding-top: 0;
+  text-align: center;
+  font-family: Palatino Linotype
+}
+
+#theform{
+  padding-left: 1cm;
+}
+#thetrack, #lab1{
+  display: inline-block;
+}
+#emailSection, #gaordev{
+  display: inline-block;
+}
+#emailSection{
+  margin: auto;
+}
+#gaordev{
+  margin: auto;
+  padding-left: 70px;
+}
+#thetrack{
+  padding-left: 70px ;
+  margin: auto
+}
+#fn, #track, #whichOne, #feedback, #ln, #role{
+  border-style: groove;
+  border: 2px solid #c9e6ff; 
+  
+}
+
+#alert{
+  text-align: center;
+  background-color: rgb(86, 245, 139);
+  width: 35%;
+  height: 6%;
+  position: center;
+  padding: 2px;
+  margin-left: 40px;
+  color: aliceblue;
+  font-size: 18px
+}
+body{
+  background-color: rgb(147, 182, 238)
+}
+#sumbit{
+  width: 91.3%;
+  height: 45px;
+  font-size: 15px;
+  border: none;
+  background-color: skyblue;
+}
+
+#sumbit:hover{
+  background-color:rgb(87, 155, 233);
+  color: blanchedalmond;
+  transition-duration: 1s
+}
+#fn, #whichOne, #ln, #role{
+width: 280px;
+height: 40px;
+}
+.title{
+  font-family: "cooper" ;
+  font-size: 40px;
+  color: rgb(83, 88, 97)
+}
+.info, .myForm{
+  box-shadow: 2px 2px 2px 2px slategrey;
+}
+#justADA{
+  color: beige !important;
+}
+.title, #justADA{
+  display: inline-block;
+}
+#gameImg{
+  height:100% ;
+  width: 100%;
+}
+#feedback{
+  width: 91%;;
+  height: 90%;
+}

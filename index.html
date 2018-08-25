@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game Rating</title>
+</head>
+<body>
+  <div class="heading">   <h1 class="title"> <div id ="justADA">Game </div> Rating</h1>    </div>
+      <div class="container">
+          <div class="info">
+              <img src="" id="gameImg" >
+
+
+           </div>
+            <div class="myForm"> 
+              <h3 class="emailus">Rate the game by entering your information and a mark </h3>
+            
+              <form id="theform">
+              <p id="lab1"> <label>First Name : </label> <br>
+                <input type="text" value=""  id="fn" name="name"> </p>
+                <div id="thetrack">
+                  <label id="lab2" > Last Name :  </label> <br>
+                <input type="text" id="ln">
+              </div>  <br>
+             <p id="emailSection"> <label>Email :</label> <br>
+              <input type="email" id="whichOne" name="email"> </p> 
+              
+              <p id="gaordev" >  <label for="choose">Gamer Or Developer ?</label>
+                <br>
+                <br>
+
+
+                <select name="role" id="role">
+                  <option>Gamer</option>
+                  <option>Developer</option>
+                </select>
+              </p>
+               <br>
+              <p> <label >Rating (/20) :</label><br>
+                <input type="number" name="rate" id="feedback" min="0" max="20" >
+              </p> 
+             <p id="sumbitbutt"> <input type="submit"  id="sumbit"> </p>
+
+
+              </form>
+
+
+            </div>
+
+            </div>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
